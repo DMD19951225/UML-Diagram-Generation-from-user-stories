@@ -1,0 +1,13 @@
+@startuml
+rectangle Actor{
+actor system as c
+}
+rectangle UseCase{
+usecase "optimize operations" as uc1
+usecase "reduce waste" as uc2
+usecase "provide dining experience customers" as uc3
+}
+c --> uc1
+c --> uc2
+c --> uc3
+@enduml

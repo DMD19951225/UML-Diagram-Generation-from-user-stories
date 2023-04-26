@@ -1,0 +1,13 @@
+@startuml
+hide circle
+skinparam classFontStyle bold
+class payment_screen{
+update_credit_card_info()
+}
+class cart{
+add()
+}
+class item{
+pay()
+}
+@enduml
